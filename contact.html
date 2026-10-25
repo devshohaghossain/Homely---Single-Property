@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Homely - Single Property </title>
+    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="" name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper-custom-1.css" rel="stylesheet" type="text/css" >
+    <link href="css/colors/scheme-01.css" id="colors" rel="stylesheet" type="text/css" >
+    <link href="css/datepicker.css" rel="stylesheet" type="text/css" >
+</head>
+
+<body>
+
+    <header class="header-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="de-flex">
+                        <div class="de-flex-col">
+                            <!-- logo begin -->
+                            <div id="logo">
+                                <a href="index.html">
+                                    <img class="logo-main" src="images/logo.webp" alt="" >
+                                    <img class="logo-scroll" src="images/logo.webp" alt="" >
+                                    <img class="logo-mobile" src="images/logo.webp" alt="" >
+                                </a>
+                            </div>
+                            <!-- logo close -->
+                        </div>
+
+                        <div class="de-flex-col">
+                            <div class="de-flex-col header-col-mid">
+                                <ul id="mainmenu">
+                                    <li><a class="menu-item" href="index.html">Home</a>
+                                      
+                                    </li>
+                                    <li><a class="menu-item" href="about.html">About</a></li>
+                                    <li><a class="menu-item" href="gallery.html">Gallery</a></li>
+                                    <li><a class="menu-item" href="news.html">News</a></li>
+                                    <li><a class="menu-item" href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="de-flex-col">
+                            <div class="menu_side_area">
+                                <a href="contact.html" class="btn-main fx-slide"><span>Schedule Visit</span></a>
+                                <span id="menu-btn"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <a href="#" id="back-to-top"></a>
+        <!-- page preloader begin -->
+        <div id="de-loader"></div>
+        <!-- page preloader close -->
+
+        <section class="jarallax text-light relative overflow-hidden mt-80 mt-sm-50">
+            <img src="images/background/1.webp" class="jarallax-img" alt="">
+            <div class="container relative z-2">
+                <div class="row g-4 justify-content-between align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="fs-72 fs-xs-10vw lh-1-1 split">Contact</h1>
+                    </div>
+                    <div class="col-md-5 text-md-end">
+                        <ul class="crumb text-light">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sw-overlay op-6"></div>
+        </section>
+
+        <section id="section-contact">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4">
+                        <p class="wow fadeInUp" data-wow-delay=".5s">Interested in this property or ready to see it in person? Send us your request and we’ll arrange a visit at your convenience.</p>
+                        <div class="mt-4 wow fadeInUp" data-wow-delay=".6s">
+                            <img src="images/team/1.webp" class="w-80px circle" alt="">
+                            <div class="mt-3">
+                                <h4 class="mb-0">Emily Rodriguez</h4>
+                                <div class="fw-500 id-color">(+1) 234-5678</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 wow fadeInUp" data-wow-delay=".8s">
+                        <form name="contactForm" id="contact_form" method="post" action="https://www.designesia.com/themes/homely/visit.php">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <div id="date" class="relative input-group date" data-date-format="mm-dd-yyyy">
+                                        <i class="absolute top-0 end-0 id-color pt-3 pe-3 icofont-calendar"></i>
+                                        <input class="form-control" name="date" type="text">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="relative">
+                                        <select name="time" id="time" class="form-control">
+                                            <option value="10:00">10:00</option>
+                                            <option value="11:00">11:00</option>
+                                            <option value="12:00">12:00</option>
+                                            <option value="13:00">13:00</option>
+                                            <option value="14:00">14:00</option>
+                                            <option value="15:00">15:00</option>
+                                            <option value="16:00">16:00</option>
+                                            <option value="17:00">17:00</option>
+                                            <option value="18:00">18:00</option>
+                                            <option value="19:00">19:00</option>
+                                            <option value="20:00">20:00</option>
+                                        </select>
+                                        <i class="absolute top-0 end-0 id-color pt-3 pe-3 icofont-simple-down"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea name="message" id="message" class="form-control h-100px" placeholder="Tell us your preferred date, time, or any questions" required></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <div id='submit'>
+                                        <input type='submit' id='send_message' value='Request a Visit' class="btn-main">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="success_message" class="bg-color mt-4 p-40 rounded-3 shadow-sm">
+                          <h4 class="mb-2">Home Visit Request Received!</h4>
+                          <p class="mb-0">
+                            Thank you <strong><span id="user_name"></span></strong> for submitting your home visit request.  
+                            Our team will review your details and contact you shortly to schedule the visit.
+                          </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>        
+
+    </main>
+
+    <footer class="text-light section-dark">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-12">
+                    <div class="d-lg-flex align-items-center justify-content-between text-center">
+                        <div>
+                            <h3 class="fs-20">Address</h3>
+                            742 Evergreen Terrace<br>
+                            Brooklyn, NY 11201
+                        </div>
+                        <div>
+                            <img src="images/logo-white.webp" class="w-150px" alt=""><br>
+                            <div class="social-icons mb-sm-30 mt-4">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+
+                        </div>
+                        <div>
+                            <h3 class="fs-20">Contact Us</h3>
+                            T. (+1) 234-5678<br>
+                            M. contact@homely.com
+                        </div>
+                    </div>
+                </div>                    
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        Copyright 2026 - Homely by Designesia
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/vendors.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/custom-datepicker.js"></script>
+    <script src="js/validation-visit.js"></script>
+
+    <div id="buy-now" class="show-on-scroll">
+        <a class="btn-buy" href="https://themeforest.net/item/homely-single-property-real-estate-html-template/61067617" target="_blank">Buy on <img src="demo/envato.svg" class="" alt=""></a>
+    </div>    
+   
+</body>
+
+
+</html>
